@@ -17,7 +17,7 @@ dependencies {
     testImplementation("org.assertj:assertj-core:3.6.1")
     testImplementation("org.junit.jupiter:junit-jupiter")
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.0-RC")
-
+    testImplementation("org.springframework.boot:spring-boot-starter-test:3.1.1")
 }
 
 tasks.test {
